@@ -1,0 +1,6 @@
+<svg width="128" height="50">
+	<filter id="blur" style="color-interpolation-filters:sRGB" x="-1" y="-3" width="3" height="7">
+		<feGaussianBlur stdDeviation="2 1" />
+	</filter>
+	<ellipse fill="#777" opacity="0.5" filter="url(#blur)" cx="64" cy="25" rx="40" ry="2" />
+</svg>

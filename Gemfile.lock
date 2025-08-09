@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    base64 (0.2.0)
+    bigdecimal (3.2.2)
+    liquid (5.8.7)
+      bigdecimal
+      strscan (>= 3.1.1)
+    rubyzip (3.0.1)
+    strscan (3.1.5)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  base64
+  liquid
+  rubyzip
+
+BUNDLED WITH
+   2.7.1

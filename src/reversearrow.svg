@@ -1,0 +1,11 @@
+<svg width="128" height="128">
+	<radialGradient id="body" cx="64" cy="64" r="64" gradientUnits="userSpaceOnUse">
+		<stop stop-color="white" stop-opacity="0.8" offset="0.921875" />
+		<stop stop-color="white" stop-opacity="0" offset="1" />
+	</radialGradient>
+	<mask id="arrow">
+		<rect fill="white" width="128" height="128" />
+		<path fill="black" d="M 36,54 H 68 V 44 L 92,64 68,84 V 74 H 36 Z" />
+	</mask>
+	<rect fill="url(#body)" mask="url(#arrow)" width="128" height="128" />
+</svg>

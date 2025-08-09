@@ -1,0 +1,16 @@
+<svg width="{% if is_combo %}100{% else %}30{% endif %}" height="{% if is_combo %}70{% else %}40{% endif %}">
+	{% if is_combo %}<rect width="100" height="70" fill="black" />{% endif %}
+	<text
+		font-size="50px"
+		font-weight="200"
+		font-family="JetBrains Mono"
+		fill="white"
+		stroke="#777"
+		stroke-width="1"
+		stroke-linejoin="round"
+		paint-order="stroke markers fill"
+		text-anchor="middle"
+		x="15"
+		y="{% if is_combo %}58{% else %}38{% endif %}"
+	>{{ text }}</text>
+</svg>

@@ -1,0 +1,2 @@
+<svg width="{{ width | default: 1 }}" height="{{ height | default: width | default: 1 }}">
+</svg>

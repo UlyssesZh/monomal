@@ -1,0 +1,11 @@
+<svg width="308" height="308">
+	<radialGradient id="shadow" cx="154" cy="154" r="154" gradientUnits="userSpaceOnUse">
+		<stop stop-color="#444" stop-opacity="0" offset="0.67" />
+		<stop stop-color="#444" stop-opacity="1" offset="0.77" />
+		<stop stop-color="#444" stop-opacity="0" offset="0.88" />
+	</radialGradient>
+	<g opacity="0.5">
+		<rect fill="url(#shadow)" width="308" height="308" />
+		<circle fill="none" stroke="white" stroke-width="16" cx="154" cy="154" r="124" />
+	</g>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="16" height="16">
+	<filter id="blur" style="color-interpolation-filters:sRGB;" x="-1" y="-1" width="3" height="3">
+		<feGaussianBlur stdDeviation="1.5" />
+	</filter>
+	<circle cx="8" cy="8" r="3" fill="{{ color }}" filter="url(#blur)" />
+</svg>
